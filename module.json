@@ -1,13 +1,16 @@
 {
-  "name": "steves-scenes",
-  "id": "steves-scenes",
-  "title": "Steve's Scenes",
+  "name": "witchscenes",
+  "id": "witchscenes",
+  "title": "witchscenes",
   "description": "A collection of my scenes, by Steve.",
   "version": "1.0.16",
-  "author": "Steve's Scenes",
+  "author": "witchscenes",
   "minimumCoreVersion": "11",
   "compatibleCoreVersion": "11",
   "type": "module",
+  "scripts": [],
+  "styles": [],
+  "languages": [],
   "packs": [
     {
       "name": "steves-scenes-house-of-lament",
@@ -48,18 +51,23 @@
   ],
   "dependencies": [
     {
-      "name": "levels"
+      "name": "levels",
+      "type": "module"
     },
     {
-      "name": "betterroofs"
+      "name": "betterroofs",
+      "type": "module"
     },
     {
-      "name": "lib-wrapper"
+      "name": "lib-wrapper",
+      "type": "module"
     },
     {
-      "name": "wall-height"
+      "name": "wall-height",
+      "type": "module"
     }
   ],
+  "url": "https://github.com/ampleyan/steves-scenes",
   "manifest": "https://raw.githubusercontent.com/ampleyan/steves-scenes/main/module.json",
   "download": "https://drive.google.com/uc?export=download&id=1jinemHfACgyRQ96ZYsg6Q0uoz7DpNmd3"
 }
